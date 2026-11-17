@@ -1,0 +1,7 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "rootDir": "..",
+  "testMatch": ["<rootDir>/test/**/*.int.test.ts"],
+  "globalSetup": "<rootDir>/test/global-setup.ts"
+}
